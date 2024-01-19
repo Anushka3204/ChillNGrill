@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+
+}
+
+/* Navigation Bar */
+#navbar{
+    display:flex;
+    align-items:center;
+
+
+
+}
+/* Logo and image */
+
+#logo{
+
+}
+
+#logo img{
+
+    height: 50px;
+    margin: 3px 7px;
+}
+
+
+
+/* navbar list sytling */
+#navbar{
+    position: relative;
+}
+
+#navbar ul{
+    display:flex;
+
+}
+
+ #navbar::before{
+    content:"";
+    background-color:#680a0a ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.4; */
+
+} 
+#navbar ul li{
+  list-style: none;
+    font-size: 1.2rem;
+    padding: 3px 22px;
+    display:block;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+
+
+#navbar ul li a{
+    display:block;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Arvo', serif;
+    font-family: 'Signika', sans-serif;
+
+}
+
+#navbar ul li a:hover{
+   color: black;
+   background-color: white;
+   border-radius: 7px;
+}
+
+/* home section */
+#home{
+    display:flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+ 
+
+
+}
+
+
+
+
+
+
+
+#home::before{
+    content:"";
+    background :url('../pic1.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.81;
+
+} 
+
+
+/* Utility class */
+.h-primary{
+    font-size: 2.8rem;
+    padding: 35px;
+   color: #680a0a;
+    font-family: 'Arvo', serif;
+    font-family: 'Signika', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+    .h-secondary{
+        font-size: 2.2rem;
+        padding: 12px;
+        color: #680a0a;
+        font-family: 'Arvo', serif;
+        font-family: 'Signika', sans-serif;
+        align-items: center;
+        text-align: center;
+    }
+
+.primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    font-family: 'Arvo', serif;
+    font-family: 'Signika', sans-serif;
+}
+
+#home h1{
+    color:white;
+    text-align: center;
+    font-family: 'Arvo', serif;
+font-family: 'Signika', sans-serif;
+}
+
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Arvo', serif;
+font-family: 'Signika', sans-serif;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: #680a0a;
+    color: white;
+    margin: 13px;
+    font-size: 1.5rem;
+    font-family: 'Arvo', serif;
+    font-family: 'Signika', sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color:#775555;
+    /* color: #680a0a;
+    border: 2px solid #680a0a; */
+}
+
+/* Services section */
+#services{
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+
+#services .box {
+
+    border: 2px solid brown;
+    padding: -31px;
+    width: 769px;
+    height: 328px;
+    margin: 20px;
+    justify-content: center;
+    border-radius: 28px;
+    background-color: rgba(40, 8, 8, 0.107);
+
+   }
+
+
+
+
+
+
+
+#services .box img{
+
+ height:160px;
+ margin:auto;
+ display: block;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.center{
+    justify-content: center;
+ align-items: center;
+ padding: 16px 16px;
+}
+
+
+/* Client section */
+
+
+
+#client{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    height: 40px;
+}
+
+#client img{
+    height: 140px;
+    /* width: 100px; */
+  
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+.pc{
+    
+    font-size: 2.8rem;
+    padding: 35px;
+   color: #680a0a;
+    font-family: 'Arvo', serif;
+    font-family: 'Signika', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:26px;
+}
+
+
+.client-item{
+    height:110px;
+    padding: 37px;
+}
+
+ #client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../bg1.jpg')no-repeat center center/cover;
+    width: 100%;
+    height: 148%;
+    z-index: -1;
+    opacity: 0.3; 
+} 
+#client-section{
+    position: relative;
+}
+ .h-pri{
+   
+    font-size: 2.8rem;
+    padding-top: 130px;
+   color: #680a0a;
+    font-family: 'Arvo', serif;
+    font-family: 'Signika', sans-serif;
+     justify-content: center;
+    align-items: center; 
+    text-align:center;
+} 
+
+
+/* Contact section */
+.h-prim{
+   
+    font-size: 2.8rem;
+    padding-top: 100px;
+   color: #680a0a;
+    font-family: 'Arvo', serif;
+    font-family: 'Signika', sans-serif;
+     justify-content: center;
+    align-items: center; 
+    text-align: center;
+} 
+
+
+
+#contact{
+    position: relative;
+
+
+}
+  #contact::before{
+    content: "";
+       position: absolute; 
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+      opacity: 0.3;
+      background: url('../contact4.webp')no-repeat center center/cover;
+
+}  
+
+footer{
+    background :#680a0a;;
+    color: rgb(211, 208, 208);
+    font-size: 20 px;
+    font-family: 'Arvo', serif;
+    font-family: 'Signika', sans-serif;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+#contact-box input,
+#contact-box textarea{
+    width:100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding-bottom: 34px;
+
+}
+#contact-box form{
+    width:40%;
+    height:40%
+}
+#contact-box label{
+    font-size: 1.3em;
+    color: #680a0a;
+    font-family: 'Arvo', serif;
+    font-family: 'Signika', sans-serif;
+}
